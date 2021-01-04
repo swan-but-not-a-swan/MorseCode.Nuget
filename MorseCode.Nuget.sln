@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorseCode.Nuget", "MorseCode.Nuget\MorseCode.Nuget.csproj", "{F08614A2-452B-4E74-B7DD-56CD4EB22AD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F08614A2-452B-4E74-B7DD-56CD4EB22AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08614A2-452B-4E74-B7DD-56CD4EB22AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08614A2-452B-4E74-B7DD-56CD4EB22AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08614A2-452B-4E74-B7DD-56CD4EB22AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9496697D-9981-4CE9-AFEC-33282ECD77B4}
+	EndGlobalSection
+EndGlobal
