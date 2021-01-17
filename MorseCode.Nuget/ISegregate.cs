@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MorseCode.Nuget
+namespace MorseCode.Nuget.Extension
 {
     public interface ISegregate
     {

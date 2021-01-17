@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MorseCode.Nuget
+namespace MorseCode.Nuget.Extension
 {
     public class Morsecode
     {
         public string Morse { get; private set; }
         public char Alphabet { get; private set; }
-        internal List<Morsecode> GetMorseData()
+        protected internal List<Morsecode> GetMorseData()
         {
             List<Morsecode> morsecode = new List<Morsecode>();
             morsecode.Add(new Morsecode { Morse = ".-", Alphabet = 'A' });
@@ -62,7 +62,7 @@ namespace MorseCode.Nuget
             morsecode.Add(new Morsecode { Morse = "_.__._", Alphabet = ')' });
             morsecode.Add(new Morsecode { Morse = ".-.-.", Alphabet = '+' });
             morsecode.Add(new Morsecode { Morse = ".__._.", Alphabet = '@' });
-            morsecode.Add(new Morsecode { Morse = " ", Alphabet = ' ' });
+            morsecode.Add(new Morsecode { Morse = "/", Alphabet = ' ' });
             return morsecode;
         }
     }

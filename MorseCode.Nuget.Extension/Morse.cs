@@ -6,18 +6,18 @@ using System.Linq;
 
 namespace MorseCode.Nuget
 {
-    public class Morse:Morsecode
+    public class Morse : Morsecode, IMorse
     {
         private StringBuilder wordline = Factory.StringbuilderConstructor();
         private ISegregate _segregate = Factory.SegregateConstructor();
         public char ToAlphabet(string morse)
         {
-            if(_segregate.MorseDataisValidated(morse))
+            if (_segregate.MorseDataisValidated(morse))
             {
                 List<Morsecode> morsecode = GetMorseData();
-                foreach(var _morse in morsecode)
+                foreach (var _morse in morsecode)
                 {
-                    if(_morse.Morse==morse)
+                    if (_morse.Morse == morse)
                     {
                         return _morse.Alphabet;
                     }
@@ -31,7 +31,7 @@ namespace MorseCode.Nuget
         }
         public string ToWordLine(List<string> morse)
         {
-            foreach(var alphabet in morse)
+            foreach (var alphabet in morse)
             {
                 var character = ToAlphabet(alphabet);
                 wordline.Append(character);
@@ -39,6 +39,6 @@ namespace MorseCode.Nuget
             string output = wordline.ToString();
             return output;
         }
-        
+
     }
 }
