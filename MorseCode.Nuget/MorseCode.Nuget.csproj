@@ -4,4 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MorseCode.Nuget.Extension\MorseCode.Nuget.Extension.csproj" />
+  </ItemGroup>
+	
 </Project>

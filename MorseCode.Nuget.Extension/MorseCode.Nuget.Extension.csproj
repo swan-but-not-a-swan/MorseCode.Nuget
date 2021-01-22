@@ -33,6 +33,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.VisualStudio.15.0">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\System.Windows.Forms.VisualStudio.15.0.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,19 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alphabet.cs" />
-    <Compile Include="IAlphabet.cs" />
-    <Compile Include="IMorse.cs" />
-    <Compile Include="Morse.cs" />
-    <Compile Include="ToMorsewithSound.cs" />
-    <Compile Include="ToMorsewithSoundWinforms.cs" />
+    <Compile Include="ISegregate.cs" />
+    <Compile Include="Morsecode.cs" />
+    <Compile Include="Segregate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MorseCode.Nuget\MorseCode.Nuget.Extension.csproj">
-      <Project>{f08614a2-452b-4e74-b7dd-56cd4eb22ad9}</Project>
-      <Name>MorseCode.Nuget.Extension</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

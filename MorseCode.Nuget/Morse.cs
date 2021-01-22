@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
-
+using MorseCode.Nuget.Extension;
+using System.Threading.Tasks;
 
 namespace MorseCode.Nuget
 {
@@ -22,6 +23,7 @@ namespace MorseCode.Nuget
                         return _morse.Alphabet;
                     }
                 }
+
                 return ' ';
             }
             else

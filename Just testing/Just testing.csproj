@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Just_testing</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MorseCode.Nuget.Extension\MorseCode.Nuget.Extension.csproj" />
+    <ProjectReference Include="..\MorseCode.Nuget\MorseCode.Nuget.csproj" />
+  </ItemGroup>
+
+</Project>
