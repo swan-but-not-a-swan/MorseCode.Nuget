@@ -9,6 +9,7 @@
     <PackageTags>Morse,Morsecode</PackageTags>
     <RepositoryUrl>https://github.com/swan-but-not-a-swan/MorseCode.Nuget/tree/master</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </PropertyGroup>
 	
 </Project>
