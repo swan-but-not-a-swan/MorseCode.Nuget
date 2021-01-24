@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MorseCode.Nuget.Extension
+namespace MorseCode.Nuget
 {
     public class Morsecode
     {

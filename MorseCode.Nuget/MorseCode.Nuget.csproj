@@ -2,10 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>2021©SwanSett This nuget can be used for commercial and personal purposes but, it is not allowed to reproudce the same product</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>SwanSett</Authors>
+    <Description>This is a nuget package suitable for most projects associated with Morse.(eg.Morsecode translator, Morsecode Decoder,etc...). Feel free to give any advice on improving the nuget package and the code.</Description>
+    <PackageTags>Morse,Morsecode</PackageTags>
+    <RepositoryUrl>https://github.com/swan-but-not-a-swan/MorseCode.Nuget/tree/master</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\MorseCode.Nuget.Extension\MorseCode.Nuget.Extension.csproj" />
-  </ItemGroup>
 	
 </Project>
