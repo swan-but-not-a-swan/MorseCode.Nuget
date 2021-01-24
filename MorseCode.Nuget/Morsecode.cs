@@ -8,7 +8,7 @@ namespace MorseCode.Nuget
     {
         public string Morse { get; private set; }
         public char Alphabet { get; private set; }
-        protected internal List<Morsecode> GetMorseData()
+        public List<Morsecode> GetMorseData()
         {
             List<Morsecode> morsecode = new List<Morsecode>();
             morsecode.Add(new Morsecode { Morse = ".-", Alphabet = 'A' });

@@ -16,20 +16,20 @@ namespace MorseCode.Nuget
                 ForConsole(morse[i], unitDuration);
             }
          }
-        private void ForConsole(char symbol, int unitDuration)
+        public void ForConsole(char symbol, int unitDuration)
         {
             int frequency = 900;
-            string sleep = "sleep";
+            
             if (symbol == '.')
             {
                 Console.Beep(frequency, unitDuration);
-                Console.WriteLine(sleep);
+                
                 Thread.Sleep(unitDuration);
             }
             if (symbol == '-')
             {
                 Console.Beep(frequency, unitDuration * 3);
-                Console.WriteLine(sleep);
+              
                 Thread.Sleep(unitDuration);
             }
             if (symbol == ' ')
