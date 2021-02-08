@@ -12,7 +12,7 @@ namespace MorseCode.Nuget
         {
             List<Morsecode> morsecode = new List<Morsecode>();
             morsecode.Add(new Morsecode { Morse = ".-", Alphabet = 'A' });
-            morsecode.Add(new Morsecode { Morse=".---", Alphabet=  'B' });
+            morsecode.Add(new Morsecode { Morse="-...", Alphabet=  'B' });
             morsecode.Add(new Morsecode { Morse = "-.-.", Alphabet = 'C' });
             morsecode.Add(new Morsecode { Morse = "-..", Alphabet = 'D' });
             morsecode.Add(new Morsecode { Morse = ".", Alphabet = 'E' });
@@ -62,7 +62,7 @@ namespace MorseCode.Nuget
             morsecode.Add(new Morsecode { Morse = "_.__._", Alphabet = ')' });
             morsecode.Add(new Morsecode { Morse = ".-.-.", Alphabet = '+' });
             morsecode.Add(new Morsecode { Morse = ".__._.", Alphabet = '@' });
-            morsecode.Add(new Morsecode { Morse = "/", Alphabet = ' ' });
+            morsecode.Add(new Morsecode { Morse = " ", Alphabet = ' ' });
             return morsecode;
         }
     }
